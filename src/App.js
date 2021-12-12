@@ -3,8 +3,8 @@ import ImgPlaceHolder from './assets/image/placeholder.jpeg'
 import tick from './assets/image/tick.svg'
 import clock from './assets/image/clock.jpg'
 
-// const skills=["html","css","js","react"]
-// const skillsFormatted = skills.map((skl) => <li>{skl}</li>)
+const skills=["HTML","CSS","JAVASCRIPT","REACT","GO","PYTHON","JAVA","C","HTML","CSS","JAVASCRIPT","REACT","GO","PYTHON","JAVA","C","HTML","CSS","JAVASCRIPT","REACT","GO","PYTHON","JAVA","C"]
+const SkillsFormatted = skills.map((skill) => <p>{skill}</p>)
 
 function UserCard() {
   return (
@@ -21,10 +21,7 @@ function UserCard() {
         </section>
         <section className='pr-skills'>
           <h3>SKILLS</h3>
-          <p>SKILLS</p>
-          <p>skills</p>
-          <p>skills</p>
-          <p>skills</p>
+          {SkillsFormatted}
         </section>
         <div className='DOJ'>
           <img src={clock} alt='clock' className='tiny-img'></img>
